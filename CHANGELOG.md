@@ -41,3 +41,5 @@ The first release.
   status 0 with no findings, 1 with findings, 2 on error. The target is
   opened with `PROCESS_QUERY_INFORMATION | PROCESS_VM_READ` only.
 - x64 and x86 builds. The C runtime is linked statically.
+
+[1.0.0]: https://github.com/HeathHowren/hookscan/releases/tag/v1.0.0
