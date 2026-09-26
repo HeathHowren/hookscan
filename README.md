@@ -18,7 +18,7 @@ slot, and looks for modules with no file behind them. It opens the target
 with read access only and never writes to it.
 
 hookscan is written by Heath Howren
-([Cyborg Elf](https://www.youtube.com/c/cyborgelf)) of
+([Cyborg Elf](https://www.youtube.com/cyborgelf)) of
 [Game Reversal Club](https://gamereversal.club). It is the checking side of
 the inline and IAT hooking chapter of
 [*The Game Hacker's Handbook*](https://gamereversal.club/books/game-hackers-handbook/),

@@ -16,7 +16,9 @@ The first release.
 - **Patch regions decoded with Zydis.** Changed bytes are grouped into
   regions, each region is decoded from the instruction it starts in, and a
   `jmp`, `call`, `jmp [mem]`, `push`/`ret` or `mov reg, imm` plus `jmp reg`
-  is followed to its target and named, as in `jmp -> othermodule.dll+0x1A20`.
+  is followed to its target and named. The report shows the new instruction
+  on a `code` line, such as `jmp 0x00007FF6C1713580`, and the named target on
+  its own `target` line, such as `othermodule.dll+0x1A20`.
 - **An IAT check that resolves imports the way the loader does.** Forwarded
   exports are followed, API set names are resolved through the system's API
   set schema with per-importer exceptions, and delay-load slots that have not
